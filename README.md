@@ -6,7 +6,6 @@
 
 * In this step, you’ll set up the sample application, as well as supporting services, such as Prometheus and Loki.
 
-```
 3. Make sure Docker is running:
 ```
 docker ps
