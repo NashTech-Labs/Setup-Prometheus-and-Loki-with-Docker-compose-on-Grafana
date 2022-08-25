@@ -2,9 +2,7 @@
 
 ## Integrting with Grafana
 
-# Set up the sample application
-
-* In this step, you’ll set up the sample application, as well as supporting services, such as Prometheus and Loki.
+# Set up the sample application.
 
 3. Make sure Docker is running:
 ```
