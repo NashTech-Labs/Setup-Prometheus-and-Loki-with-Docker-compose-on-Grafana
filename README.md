@@ -2,22 +2,16 @@
 
 ## Integrting with Grafana
 
-# Set up the sample application.
+# Set up the application.
 
-3. Make sure Docker is running:
-```
-docker ps
-```
-4. Start the sample application:
+1. Start the application:
 ```
 docker-compose up -d
 ```
-5. Ensure all services are up-and-running:
+2. Ensure all services are up-and-running:
 ```
 docker-compose ps
 ```
-6. Browse to the sample application on localhost:8081.
-
 
 ## Log in to Grafana
 
