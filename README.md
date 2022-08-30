@@ -30,9 +30,6 @@ docker-compose ps
 
 ## Add a logging data source : Loki
 
-* Loki is a Prometheus-inspired horizontally scalable, highly available, multi-tenant log aggregation solution. It is made to be very simple to use and very cost-effective. Instead of indexing the logs' content, it creates a list of labels for each log stream.
-
-
 1. In the side bar, hover your cursor over the Configuration (gear) icon, and then click Data Sources.
 2. Click Add data source.
 3. In the list of data sources, click Loki.
@@ -43,9 +40,5 @@ docker-compose ps
 
 1. In the side bar, click the Explore (compass) icon.
 2. In the data source list at the top, select the Loki data source.
-3. In the Query editor, enter:
-```
-{filename="/var/log/tns-app.log"}
-```
-4. Grafana displays all logs within the log file of the sample application. The height of each bar encodes the number of logs that were generated at that time.
-5. Click and drag across the bars in the graph to filter logs based on time.
+3. In the Query editor, type you query
+4. Click and drag across the bars in the graph to filter logs based on time.
