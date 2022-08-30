@@ -1,8 +1,8 @@
 global:
-  scrape_interval: 15s
+  scrape_interval: 20s
 
 scrape_configs:
-  - job_name: "prometheus"
+  - job_name: "prometheus-monitoring"
 
     static_configs:
       - targets: ["localhost:9090"]
@@ -10,7 +10,7 @@ scrape_configs:
   - job_name: "tns_app"
 
     # Override global settings
-    scrape_interval: 5s
+    scrape_interval: 2s
 
     static_configs:
       - targets: ["app:80"]
