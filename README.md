@@ -2,9 +2,9 @@
 
 ## Integrting with Grafana
 
-# Set up the application.
+# Set up the application in the same directory(as a build context).
 
-1. Start the application:
+1. Start the application by using command:
 ```
 docker-compose up -d
 ```
@@ -15,11 +15,16 @@ docker-compose ps
 
 ## Log in to Grafana
 
-* Grafana is an open-source platform for monitoring and observability that lets you visualize and explore the state of your systems.
 
 1. Open a new tab.
 2. Browse to localhost:3000
 3. then Log In the dashboard
+
+## for prometheus
+1. click on add data source.
+2. Select "Prometheus".
+3. Set the Prometheus server URL (for example, http://localhost:9090/)
+4. Click "Save & Test" to save the new data source.
 
 
 ## Add a logging data source : Loki
